@@ -425,26 +425,77 @@
     }
 
     .profilePic {
-        width: 150px;
+        width: 140px;
     }
 
     .about {
         width: 80vw;
         margin-top: 2rem;
-        font-size: 1.3rem;
+        font-size: 1.25rem;
+        text-align: justify;
     }
     .viewResume {
         margin: 0;
-        font-size: 1.2rem;
-        padding: 8px 12px;
+        font-size: 1.15rem;
+        padding: 7px 11px;
         font-weight: 400;
         transition: background-color 0.3s ease-in, color 0.3s;
     }
+
+    .projectsContainer {
+        width: 100%;
+        height: fit-content;
+        background: rgb(229, 210, 250);
+        background: linear-gradient(
+            90deg,
+            rgba(229, 210, 250, 1) 0%,
+            rgba(235, 195, 250, 1) 100%
+        );
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: column;
+        user-select: none;
+    }
+    .project {
+        margin-bottom: 2rem;
+        flex-direction: column;
+        column-gap: 5rem;
+        align-items: center;
+    }
     .projectImage {
-        border: 1px solid var(--primaryColor);
-        border-radius: 5px;
-        padding: 5px;
-        max-width: 10vw;
-        transition: box-shadow 0.3s;
+        max-width: 80%;
+    }
+    .projectButtons {
+        column-gap: 2rem;
+        width: 300px;
+        display: flex;
+        justify-content: center;
+    }
+    .pImgLink {
+        margin-top: 2rem;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .skillsContainer {
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        user-select: none;
+    }
+    .skillsTitle {
+        padding-bottom: 0;
+    }
+    .skillsList {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        column-gap: 3rem;
+        row-gap: 2.5rem;
+        padding-bottom: 7rem;
+        padding-left: 0;
     }
 }

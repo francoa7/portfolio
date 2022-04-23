@@ -80,7 +80,7 @@ function Home() {
                                           </a>
                                     </div>
                               </div>
-                              <a href="https://pokemon-the-wiki.vercel.app/" target="_blank">
+                              <a href="https://pokemon-the-wiki.vercel.app/" target="_blank" className={styles.pImgLink}>
                                     <img src={pokemon} alt="project capture" className={styles.projectImage} />
                               </a>
                         </div>  <div className={styles.project}>
@@ -97,7 +97,7 @@ function Home() {
                                           </a>
                                     </div>
                               </div>
-                              <a href="https://weather-app-francoa7.vercel.app/" target="_blank">
+                              <a href="https://weather-app-francoa7.vercel.app/" target="_blank" className={styles.pImgLink}>
                                     <img src={weather} alt="project capture" className={styles.projectImage} />
                               </a>
                         </div>
