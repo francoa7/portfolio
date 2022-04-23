@@ -369,7 +369,7 @@
     user-select: none;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 700px) {
     .navigation {
         position: fixed;
         width: 100vw;
