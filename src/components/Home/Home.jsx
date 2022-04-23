@@ -40,7 +40,7 @@ function Home() {
                   <div className={styles.titleContainer} id='home'>
                         <span className={styles.title}>Hi, my name is <span className={styles.name}>Franco</span> <br />
                               I'm a Full Stack Web Developer</span>
-                        <a href='#about'><button className={styles.aboutMe}>About</button></a>
+                        <a href='#about' className={styles.aboutLink}><button className={styles.aboutMe}>About</button></a>
                         <div className={styles.contactButtons}>
                               <a target="_blank" href='https://www.linkedin.com/in/franco-angulo/' >
                                     <FontAwesomeIcon icon={faLinkedin} className={styles.contact} />

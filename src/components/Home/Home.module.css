@@ -368,3 +368,67 @@
     flex-direction: column;
     user-select: none;
 }
+
+@media screen and (max-width: 500px) {
+    .navigation {
+        position: fixed;
+        width: 100vw;
+        top: 88%;
+        display: flex;
+        justify-content: center;
+        column-gap: 2rem;
+        flex-direction: row;
+    }
+    .title {
+        padding: 0 2rem;
+        margin-left: 0;
+        font-size: 3.2rem;
+        font-weight: 600;
+        color: #272341;
+    }
+
+    .contactButtons {
+        bottom: 85%;
+    }
+    .contact {
+        width: 40px;
+        height: 40px;
+    }
+    .aboutLink {
+        width: 100vw;
+        display: flex;
+        text-decoration: none;
+        justify-content: center;
+        margin-top: 2rem;
+    }
+
+    .aboutMe {
+        margin: 0;
+        align-self: center;
+        font-size: 1.3rem;
+        padding: 5px 10px;
+        font-family: "Montserrat", sans-serif;
+        background-color: transparent;
+        border: 2px solid var(--primaryColor);
+        color: var(--primaryColor);
+        font-weight: 600;
+        transition: background-color 0.3s ease-in, color 0.3s;
+    }
+    .subtitle {
+        margin-bottom: 0;
+    }
+
+    .myDescription {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .projectImage {
+        border: 1px solid var(--primaryColor);
+        border-radius: 5px;
+        padding: 5px;
+        max-width: 10vw;
+        transition: box-shadow 0.3s;
+    }
+}
