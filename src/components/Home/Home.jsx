@@ -7,6 +7,7 @@ import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 import resume from '../../assets/FrancoAngulo.pdf'
 import pokemon from '../../assets/pokemon2.jpg'
 import weather from '../../assets/weather.jpg'
+import nfticket from '../../assets/nfticket.jpg'
 import javascript from '../../assets/javascript.png'
 import react from '../../assets/react.png'
 import redux from '../../assets/redux.png'
@@ -67,6 +68,24 @@ function Home() {
                         <h2 className={` ${styles.subtitle} ${styles.dark}`}>Projects</h2>
                         <div className={styles.project}>
                               <div className={styles.projectDescription}>
+                                    <h3 className={`${styles.projectTitle} ${styles.dark}`}>NFTicket</h3>
+                                    <span className={styles.projectExplanation}>Project developed in group. Marketplace for buying events tickets as NFTs, through the creation of smart contracts and interacting with the blockchain. Ability to create your own event and sell your own tickets. Connection with MetaMask.
+                                    </span>
+                                    <div className={styles.projectButtons}>
+                                          <a href="https://nftickets.netlify.app/" target="_blank">
+                                                <button className={`${styles.seeLive}`}>See Live </button>
+                                          </a>
+                                          <a href="https://github.com/martinsione/ticketek-web3" target="_blank">
+                                                <button className={`${styles.sourceCode}`}> Source Code</button>
+                                          </a>
+                                    </div>
+                              </div>
+                              <a href="https://nftickets.netlify.app/" target="_blank" className={styles.pImgLink}>
+                                    <img src={nfticket} alt="project capture" className={styles.projectImage} />
+                              </a>
+                        </div>
+                        <div className={styles.project}>
+                              <div className={styles.projectDescription}>
                                     <h3 className={`${styles.projectTitle} ${styles.dark}`}>Pokemon App</h3>
                                     <span className={styles.projectExplanation}>Single Page Application using React for the Front End and Redux as state management.
                                           The SPA consumes data from an API (pokeapi.co) through a Back End developed in NodeJS using Express, adding new features to the original API.
@@ -83,21 +102,22 @@ function Home() {
                               <a href="https://pokemon-the-wiki.vercel.app/" target="_blank" className={styles.pImgLink}>
                                     <img src={pokemon} alt="project capture" className={styles.projectImage} />
                               </a>
-                        </div>  <div className={styles.project}>
+                        </div>
+                        <div className={styles.project}>
                               <div className={styles.projectDescription}>
                                     <h3 className={`${styles.projectTitle} ${styles.dark}`}>Weather App</h3>
-                                    <span className={styles.projectExplanation}>Simple SPA that shows the climate for different cities, bringing the information from an external API (https://openweathermap.org/api), searching them by names
+                                    <span className={styles.projectExplanation}>Simple SPA that shows your current location weather and also allows you to look for the climate at different cities, bringing the information from an external API (https://openweathermap.org/api), searching them by names.
                                     </span>
                                     <div className={styles.projectButtons}>
-                                          <a href="https://weather-app-francoa7.vercel.app/" target="_blank">
+                                          <a href="https://weathering-app.vercel.app/" target="_blank">
                                                 <button className={`${styles.seeLive}`}>See Live </button>
                                           </a>
-                                          <a href="https://github.com/francoa7/weather-app" target="_blank">
+                                          <a href="https://github.com/francoa7/weathering" target="_blank">
                                                 <button className={`${styles.sourceCode}`}> Source Code</button>
                                           </a>
                                     </div>
                               </div>
-                              <a href="https://weather-app-francoa7.vercel.app/" target="_blank" className={styles.pImgLink}>
+                              <a href="https://weathering-app.vercel.app/" target="_blank" className={styles.pImgLink}>
                                     <img src={weather} alt="project capture" className={styles.projectImage} />
                               </a>
                         </div>
