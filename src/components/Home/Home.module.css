@@ -478,6 +478,14 @@
         display: flex;
         justify-content: center;
     }
+    .techStack {
+        padding: 0 2rem;
+    }
+    .imageContainer {
+        display: flex;
+        flex-direction: column;
+    }
+
     .skillsContainer {
         height: fit-content;
         display: flex;

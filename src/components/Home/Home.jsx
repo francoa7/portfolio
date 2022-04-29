@@ -80,9 +80,12 @@ function Home() {
                                           </a>
                                     </div>
                               </div>
-                              <a href="https://nftickets.netlify.app/" target="_blank" className={styles.pImgLink}>
-                                    <img src={nfticket} alt="project capture" className={styles.projectImage} />
-                              </a>
+                              <div className={styles.imageContainer}>
+                                    <a href="https://nftickets.netlify.app/" target="_blank" className={styles.pImgLink}>
+                                          <img src={nfticket} alt="project capture" className={styles.projectImage} />
+                                    </a>
+                                    <p className={styles.techStack}><b>Tech stack:</b> NextJS, Redux, Typescript, Prisma, web3.js, Solidity, Chakra</p>
+                              </div>
                         </div>
                         <div className={styles.project}>
                               <div className={styles.projectDescription}>
@@ -99,9 +102,12 @@ function Home() {
                                           </a>
                                     </div>
                               </div>
-                              <a href="https://pokemon-the-wiki.vercel.app/" target="_blank" className={styles.pImgLink}>
-                                    <img src={pokemon} alt="project capture" className={styles.projectImage} />
-                              </a>
+                              <div className={styles.imageContainer}>
+                                    <a href="https://pokemon-the-wiki.vercel.app/" target="_blank" className={styles.pImgLink}>
+                                          <img src={pokemon} alt="project capture" className={styles.projectImage} />
+                                    </a>
+                                    <p className={styles.techStack}><b>Tech stack:</b> React, Redux, CSSModule, NodeJS, ExpressJS, Sequelize, PostgreSQL</p>
+                              </div>
                         </div>
                         <div className={styles.project}>
                               <div className={styles.projectDescription}>
@@ -117,9 +123,12 @@ function Home() {
                                           </a>
                                     </div>
                               </div>
-                              <a href="https://weathering-app.vercel.app/" target="_blank" className={styles.pImgLink}>
-                                    <img src={weather} alt="project capture" className={styles.projectImage} />
-                              </a>
+                              <div className={styles.imageContainer}>
+                                    <a href="https://weathering-app.vercel.app/" target="_blank" className={styles.pImgLink}>
+                                          <img src={weather} alt="project capture" className={styles.projectImage} />
+                                    </a>
+                                    <p className={styles.techStack}><b>Tech stack:</b> React, Redux, Chakra</p>
+                              </div>
                         </div>
                   </div>
                   <div className={styles.skillsContainer} id="skills">
