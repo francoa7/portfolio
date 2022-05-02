@@ -60,9 +60,15 @@ function Home() {
                               <img src={profilePic} alt="my photo" className={styles.profilePic} />
                               <span className={styles.about}>The world of programming fascinates me. I always seek to learn and I love the idea of being able to live from what I am passionate about. This is why I trained as a Full Stack Developer. Always responsible, well predisposed and committed to my tasks.</span>
                         </div>
-                        <a href={resume} target="_blank">
-                              <button className={styles.viewResume}>View Resume</button>
-                        </a>
+                        <div className={styles.aboutButtons}>
+                              <a href={resume} target="_blank">
+                                    <button className={styles.viewResume}>View Resume</button>
+                              </a>
+                              <a href='https://certificates.soyhenry.com/cert?id=950acd16-3b5c-4676-b92e-aecb575a0cf3'
+                                    target="blank">
+                                    <button className={styles.viewCertificate}>View Certificate</button>
+                              </a>
+                        </div>
                   </div>
                   <div className={styles.projectsContainer} id='projects'>
                         <h2 className={` ${styles.subtitle} ${styles.dark}`}>Projects</h2>

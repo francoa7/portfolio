@@ -129,6 +129,12 @@
     box-shadow: 0 0px 50px #ffe9ff;
 }
 
+.aboutButtons {
+    display: flex;
+    column-gap: 2rem;
+    margin-left: 10rem;
+}
+
 .viewResume {
     margin-top: 2rem;
     font-size: 1.3rem;
@@ -145,6 +151,23 @@
     cursor: pointer;
     background-color: #fff;
     color: var(--primaryColor);
+}
+
+.viewCertificate {
+    margin-top: 2rem;
+    font-size: 1.3rem;
+    padding: 8px 12px;
+    font-family: "Montserrat", sans-serif;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-weight: 400;
+    transition: text-decoration 0.3s;
+}
+
+.viewCertificate:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 .goHome {
@@ -434,10 +457,23 @@
         font-size: 1.25rem;
         text-align: justify;
     }
+    .aboutButtons {
+        margin-left: 0;
+    }
+
+    .viewCertificate {
+        margin: 0;
+        margin-top: 1rem;
+        font-size: 1rem;
+        padding: 7px 11px;
+        font-weight: 400;
+        transition: background-color 0.3s ease-in, color 0.3s;
+    }
+
     .viewResume {
         margin: 0;
         margin-top: 1rem;
-        font-size: 1.15rem;
+        font-size: 1rem;
         padding: 7px 11px;
         font-weight: 400;
         transition: background-color 0.3s ease-in, color 0.3s;
